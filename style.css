@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFECEC;
+    display: flex;
+    margin: 35px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    text-align: center;
+     height:140px;
+    width: 370px;   
+}
+.content p{
+    font-size: 20px;
+    margin-right: 19px;
+}
+.content span{
+    color: rgba(0, 0, 0, 0.37);
+    font-size: 11px;
+}
+.container{
+    margin-top: 10px;
+    height: 430px;
+    width: 910px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:15px;
+    position: relative;
+    margin-left: 30px
+}
+.box{
+    position: ;
+    justify-content: center;
+    height: 210px;
+    width: 275px;
+    background-color: white;
+    border-radius: 10px;
+}
+.box svg{
+    position: absolute;
+    left: 180px;
+    top: 110px;
+}
+.box h4,p{
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.box p{
+    font-size: 12px;
+}
+.box-1{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: absolute;
+    top: 130px;
+    left: 8px;
+}
+.box-2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    grid-column-start: 2;
+    position: absolute;
+}
+.box-3{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    grid-column-start: 3;
+    position: absolute;
+    top: 130px;
+    right: 26px;
+}
+.box-4{
+    border-top: 6px solid ;
+    grid-column-start: 2;
+    position: absolute;
+    top: 236px;
+    border-top: 5px solid  hsl(34, 97%, 64%)
+}
+
+
+
+
