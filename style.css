@@ -41,7 +41,6 @@ body{
     margin-left: 30px
 }
 .box{
-    position: ;
     justify-content: center;
     height: 210px;
     width: 275px;
@@ -83,9 +82,34 @@ body{
     grid-column-start: 2;
     position: absolute;
     top: 236px;
-    border-top: 5px solid  hsl(34, 97%, 64%)
+    border-top: 5px solid  hsl(34, 97%, 64%);
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .box,
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+        width: 100%;
+        grid-column: span 3;
+        position: static;
+        margin-bottom: 15px;
+        left: 0;
+        right: 0;
+    }
+
+    .box svg {
+        position: static;
+        margin-top: 45px;
+        margin-bottom: 15px;
+        margin-left: 240px;
+    }
 
 
 
