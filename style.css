@@ -46,7 +46,9 @@ body{
     width: 275px;
     background-color: white;
     border-radius: 10px;
+    box-shadow:  2px 4px 9px 5px rgba(128, 128, 128, 0.205);
 }
+
 .box svg{
     position: absolute;
     left: 180px;
